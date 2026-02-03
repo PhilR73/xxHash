@@ -5,10 +5,10 @@ CMakeFiles
 Makefile
 cmake_install.cmake
 
+build
+
 
 # make compilation results
 
-libxxhash.0.6.3.dylib
-libxxhash.0.dylib
-libxxhash.a
-libxxhash.dylib
+*.dylib
+*.a
