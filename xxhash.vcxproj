@@ -162,10 +162,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="xxhash.c" />
-    <ClCompile Include="xxhsum.c" />
+    <ClCompile Include="xxh_x86dispatch.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="xxh3.h" />
     <ClInclude Include="xxhash.h" />
+    <ClInclude Include="xxh_x86dispatch.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

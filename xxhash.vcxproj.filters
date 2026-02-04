@@ -21,12 +21,18 @@
     <ClCompile Include="xxhash.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="xxhsum.c">
+    <ClCompile Include="xxh_x86dispatch.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="xxhash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxh_x86dispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xxh3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
